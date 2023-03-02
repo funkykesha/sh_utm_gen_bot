@@ -13,7 +13,7 @@ bot = telebot.TeleBot(config.TOKEN)
 #   bot.send_message(message.from_user.id, message.text)
 
 
-  
+
 # # echo-функция, которая отвечает на любое текстовое сообщение таким же текстом
 
 
@@ -26,4 +26,4 @@ def repeat_all_messages(message): # Название функции не игр�
 #запускаем flask-сервер в отдельном потоке. Подробнее ниже...
 keep_alive()
 
-bot.polling(non_stop=True, interval=0)  #запуск бота
+bot.polling(non_stop=True, interval=0)  #запуск бота 111111
